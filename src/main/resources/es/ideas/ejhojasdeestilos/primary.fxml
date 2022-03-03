@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="aPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight=
+"-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns=
+"http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller
+="es.ideas.ejhojasdeestilos.PrimaryController">
+   <children>
+      <Button fx:id="bCss1" layoutX="38.0" layoutY="94.0" mnemonicParsing
+="false" onAction="#primerCSS" prefHeight="25.0" prefWidth="131.0" text
+="CSS 1" />
+      <Button fx:id="bCss2" layoutX="38.0" layoutY="154.0" mnemonicParsing
+="false" onAction="#segundoCSS" prefHeight="25.0" prefWidth="131.0" text
+="CSS 2" />
+      <Button fx:id="bCss3" layoutX="37.0" layoutY="212.0" mnemonicParsing
+="false" onAction="#tercerCSS" prefHeight="25.0" prefWidth="131.0" text
+="CSS 3" />
+      <Text fx:id="tPrincipal" layoutX="234.0" layoutY="33.0" strokeType
+="OUTSIDE" strokeWidth="0.0" text="02-EJ-Hojas De Estilos" wrappingWidth
+="131.33333333333337">
+         <font>
+            <Font name="Berlin Sans FB" size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="bReinicio" layoutX="49.0" layoutY="317.0" mnemonicParsing
+="false" onAction="#reiniciar" prefHeight="25.0" prefWidth="131.0" text
+="Reinicio" />
+      <Button fx:id="bSalir" layoutX="399.0" layoutY="317.0" mnemonicParsing
+="false" onAction="#salir" prefHeight="25.0" prefWidth="131.0" text="Salir" />
+   </children>
+</AnchorPane>

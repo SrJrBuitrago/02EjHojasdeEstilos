@@ -1,0 +1,19 @@
+#tPrincipal{
+    -fx-text-fill:#F90000;
+}
+#aPane { 
+    -fx-background-color: #F90000; 
+}
+
+
+
+Button:hover { 
+    -fx-background-color: #FFFFFF;          
+    -fx-font-size: 22px;
+}
+
+Button:pressed { 
+    -fx-background-color: #02CF08;            
+    -fx-text-fill: #FFFFFF;         
+    
+}

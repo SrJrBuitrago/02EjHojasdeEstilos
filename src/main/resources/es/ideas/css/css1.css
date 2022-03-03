@@ -1,0 +1,14 @@
+#tPrincipal { 
+    -fx-font-family: "Monospace";              
+  
+    
+}
+
+#aPane { 
+    -fx-background-color: #02CF08; 
+}
+
+Button:hover { 
+    -fx-background-color: #00FEFE;    
+    -fx-font-size: 22px;
+}

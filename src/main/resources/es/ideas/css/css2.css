@@ -1,0 +1,21 @@
+#tPrincipal { 
+    -fx-font-family: "Times New Roman"; 
+    
+}
+
+#aPane { 
+    -fx-background-color: #00FEFE; 
+}
+
+
+
+Button:hover { 
+    -fx-background-color: #33FF8F;          
+    -fx-font-size: 22px;
+}
+
+Button:pressed { 
+    -fx-background-color: #F90000;            
+    -fx-text-fill: #FFFFFF;         
+    
+}
